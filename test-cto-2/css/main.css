@@ -1,0 +1,609 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+}
+.hidden {
+	display: none;
+}
+.carousel img {
+	width: 100%;
+	height: auto;
+}
+.parallax {
+	background-attachment: fixed;
+	background-position: 50% 0;
+	position: relative;
+}
+
+.top_mnu {
+    overflow: hidden;
+    background-color: #ffb700;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 5;
+    box-shadow: 0px 8px 14px #ffa500, 0 0 1em;
+}
+.top_mnu a {
+    float: left;
+    display: block;
+    color: #000;
+    padding: 15px 79px;
+    text-decoration: none;
+}
+.top_line{
+	padding-top: 33px;
+	margin-bottom: -33px;
+  position: relative;
+}
+
+header {
+	background-image: url(../img/head_back.png);
+	height: 636px;
+	background-position: center;
+}
+.back_logo {
+	background-image: url(../img/logo_back.png);
+	width: 774px;
+	height: 205px;
+	top: 0px;
+  left: -381px;
+  position: absolute;
+  z-index: 1;
+}
+
+.logo {
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	margin-top: 35px;
+	height: 120px;
+	position: relative;
+	z-index: 2;
+}
+
+.name_cto{
+	z-index: 3;
+  font-size: 69px;
+  position: absolute;
+  margin-top: -50px;
+  font-family: "BebasRegular";
+  color: #ffb700;
+}
+
+.name_cto span{
+	color: #c0c0c0;
+}
+
+.adr {
+	background-image: url(../img/ico_locat.png);
+	position: relative;
+	padding-left: 65px;
+	background-repeat: no-repeat;
+	margin-top: 35px;
+  height: 73px;
+}
+
+.phone {
+	background-image: url(../img/ico_phone.png);
+	background-repeat: no-repeat;
+	height: 73px;
+	margin-top: 35px;
+	padding-left: 65px;
+	text-align: right;
+	margin-left: 140px;
+}
+
+.call_btn {
+	display: block;
+	background-color: #2c2528;
+	color: #ffb700;
+	line-height: 50px;
+	border-radius: 50px;
+	text-transform: uppercase;
+	text-align: center;
+	box-shadow: 0 6px 10px 6px rgba(255,255,0,0.6);
+	transition: all 0.3s ease-out 0s;
+}
+
+.call_btn:hover {
+	background-color: #f6ff00;
+	color: black;
+}
+
+.head-ac {
+	background-image: url(../img/ac.png);
+	width: 303px;
+	height: 212px;
+	position: absolute;
+	margin: 0 39px;
+}
+.tittel_clock{
+	text-align: center;
+  margin: 56px 0px 17px 0px;
+  font-size: 23px;
+}
+
+.head_img {
+	background-image: url(../img/head_img.png);
+	background-repeat: no-repeat;
+	height: 569px;
+	position: relative;
+}
+/*УСЛУГИ АВТОСЕРВИСА*/
+.main_cats{
+	padding: 70px 0 40px;
+}
+.main_cats h2,
+.art_header{
+	text-transform: uppercase;
+	color: black;
+	font-family: "BebasRegular";
+	font-size: 40px;
+	text-align: center;
+	text-shadow: 0px 4px 6px #948181;
+}
+.main_cats h2 strong{
+	color: #fff;
+}
+.main_cats h2 span{
+	color: #d12f22;
+}
+section h2,
+article h2 {
+	position: relative;
+}
+.s_black h2::before{
+	content: "";
+	position: absolute;
+	width: 50px;
+	height: 20px;
+	background-image: url(../img/header.png);
+	top: 19px;
+	margin-left: -68px;
+	width: 50px;
+}
+.s_black h2::after{
+	content: "";
+	position: absolute;
+	width: 50px;
+	height: 20px;
+	background-image: url(../img/header.png);
+	top: 20px;
+	margin-left: 20px;
+	width: 50px;
+	background-position: -50px 0;
+}
+.mc_item{
+	border: #353535 1px solid;
+	border-right-style: 2px;
+	background-color: black;
+	box-shadow: 8px 8px 18px black, 0 0 1em;
+}
+.mc_item_wrap{
+	margin-left: 30px;
+	width: 160px;
+	display: inline-block;
+	text-align: center;
+}
+.mc_item_wrap_af{
+content: "";
+width: 17px;
+height: 9px;
+background-image: url(../img/mc_c_arr.png);
+position: absolute;
+margin: 16px 69px;
+display: none;
+}
+.mc_item_wrap:nth-child(1){
+	margin-left: 0;
+}
+.mc_wrap{
+	text-align: center;
+	padding: 0;
+	position: relative; 
+}
+.mc_item_wrap a{
+	color: #fff;
+}
+.mc_item span{
+	display: block;
+	height: 85px;
+	width: 130px;
+	background-image: url(../img/cats_iconset.png);
+	margin: 15px auto 0;
+}
+.mc_item h4{
+	font-weight: normal;
+	font-family: "BeBasBold"; 
+	font-size: 19px;
+	color: white;
+	margin-top: 5;
+	margin-bottom: 7px;
+}
+.mc_item a:hover h4,
+.mc_item_wrap.active h4{
+text-decoration: underline;
+}
+.mc_item_wrap.active,
+.mc_item_wrap:hover{
+background-color: #2A2A2A;
+}
+.mc_item_wrap:nth-child(1) span{
+  background-position: -109px 0;
+}
+.mc_item_wrap:nth-child(2) span{
+  background-position: -300px 0;
+}
+.mc_item_wrap:nth-child(3) span{
+  background-position: -493px 0;
+}
+.mc_item_wrap:nth-child(4) span{
+  background-position: -682px 0;
+}
+.mc_item_wrap:nth-child(5) span{
+  background-position: -866px 0;
+}
+.mc_item_wrap:nth-child(6) span{
+  background-position: -1061px 0;
+}
+.mc_toggle{
+	background-color: #212121;
+	height: 25px;
+	position: relative;
+	cursor: pointer;
+	background-image: url(../img/mc_arr.png);
+	background-repeat: no-repeat;
+	background-position: -118px 10px;
+}
+.mc_item_wrap.active .mc_toggle,
+.mc_item_wrap:hover .mc_toggle{
+	background-color: #353535;
+	background-position: 72px 10px;
+}
+.mc_item_wrap.active > ul{
+	margin: 0;
+	list-style-position: none;
+}
+body .mc_wrap .mc_item_wrap > ul{
+	position: absolute;
+	width: 96.7%;
+	font-size: 21px;
+	color: white;
+	box-shadow: 8px 8px 18px black, 0 0 1em;
+	background-color: #353535;
+	margin-top: 25px;
+	padding: 15px 0;
+	list-style-type: none;
+	z-index: 10;
+	display: none;
+	left: 19px;
+}
+.mc_item_wrap.active > ul li{
+	display: inline-block;
+	font-family: "BeBasRegular";
+}
+.mc_item_wrap.active > ul li a{
+	padding: 0 3px;
+	text-decoration: underline;
+}
+.mc_item_wrap.active > ul li a:hover{
+	text-decoration: none;
+}
+/*УСЛУГИ АВТОСЕРВИСА*/
+
+.text {
+	padding: 70px;
+}
+
+.onac h2 {
+	text-transform: uppercase;
+  color: black;
+  font-family: "BebasRegular";
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 0px 4px 6px #948181;
+}
+.prem {
+	background-image: url(../img/preim_back.png);
+	position: relative;
+	height: 1008px;
+	background-position: center;
+	z-index: 1;
+}
+.prem_text {
+	color: #ffb700;
+	text-align: center;
+	margin-top: 124px;
+	font-size: 26px;
+}
+.prem_logo{
+	background-image: url(../img/preim_zag_back.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 21px;
+	margin-top: 12px;
+}
+.prem_img1{
+	background-image: url(../img/preim_1.png);
+	background-repeat: no-repeat;
+	height: 202px;
+  width: 253px;
+  left: 17px;
+  position: absolute;
+}
+.prem_img2{
+	background-image: url(../img/preim_2.png);
+	background-repeat: no-repeat;
+	height: 208px;
+  width: 253px;
+  left: 49px;
+  position: absolute;
+}
+.prem_img3{
+	background-image: url(../img/preim_3.png);
+	background-repeat: no-repeat;
+	height: 202px;
+  width: 253px;
+  margin: 13px 0 0 35px;
+  position: absolute;
+}
+.prem_img4{
+	background-image: url(../img/preim_4.png);
+	background-repeat: no-repeat;
+	height: 202px;
+  width: 253px;
+  left: 20px;
+  position: absolute;
+}
+.prem_back_text{
+	color: white;
+	text-align: center;
+	font-size: 23px;
+	margin-top: 217px;
+}
+.prem_text2 {
+	text-align: right;
+	margin-top: 35px;
+	color: #ffb700;
+	font-size: 26px;
+}
+.prem_arrow{
+	background-image: url(../img/kons_arrow.png);
+	background-repeat: no-repeat;
+	width: 326px;
+	height: 71px;
+	top: 127px;
+  right: 18px;
+  position: absolute;
+}
+.input_form {
+	margin-top: 42px;
+}
+.input_form input{
+	width: 60%;
+	height: 39px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  padding-left: 50px;
+  font-size: 17px;
+  font-family: "Exo2Regular";
+  color: #fff;
+  margin-bottom: 17px;
+}
+.input_form:after{
+	position: absolute;
+    height: 255px;
+    width: 1px;
+    background: #fff;
+    left: -4px;
+    top: 11px;
+    content: '';
+}
+
+.input_form input:nth-of-type(1) {
+    background: url(../img/kons_ico_name.png) no-repeat 5% center;
+}
+.input_form input:nth-of-type(2) {
+    background: url(../img/kons_ico_mail.png) no-repeat 5% center;
+}
+.input_form input:nth-of-type(3) {
+    background: url(../img/kons_ico_phone.png) no-repeat 5% center;
+}
+.prem_img{
+	background-image: url(../img/kons_car.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 556px;
+    position: absolute;
+    height: 271px;
+    margin-left: 309px;
+}
+.map{
+	position: relative;
+	margin-top: -96px;
+  width: 100%;
+}
+
+.footer{
+	background-image: url(../img/footer_back.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  height: 284px;
+  margin-top: -158px;
+}
+
+.button{
+	border-radius: 50px;
+  width: 200px;
+  height: 40px;
+  background: #ffb700;
+  border: none;
+  font-size: 19px;
+ 	font-family: "Exo2Regular";
+  cursor: pointer;
+  text-align: center;
+}
+
+.logo_footer_img{
+	background-image: url(../img/footer_logo.png);
+	margin: 37px 17px 0 0;
+  height: 76px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.footer .name_cto{
+	font-size: 40px;
+  text-align: center;
+  width: 100%;
+  margin: -39px 0px 0px -18px;
+}
+
+.footer_adr{
+	text-align: left;
+	font-size: 18px;
+	color: white;
+	padding: 32px 0 0 0;
+}
+
+.footer .button{
+	width: 100%;
+	margin: 32px 0 0 0;
+	display: block;
+	color: black;
+	font-size: 17px;
+	padding: 5px 0 0 0;
+}
+
+.footer .button:before{
+	top: 27px;
+}
+.footer .button:after{
+	bottom: -5px;
+}
+
+.footer .button:before, .footer .button:after{
+	content: "";
+	background-image: url(../img/footer_btn_top.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 1px;
+	position: absolute;
+	left: 34px;
+  margin: auto;
+}
+.button:before{
+	top: 205px;
+}
+.button:after{
+	bottom: -5px;
+}
+
+.button:before, .button:after{
+	content: "";
+	background-image: url(../img/btn_linia.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 1px;
+	position: absolute;
+	left: 34px;
+  margin: auto;
+}
+
+.footer .phone strong{
+	color: yellow;
+	font-size: 23px;
+}
+
+.footer .phone{
+	background-image: none;
+	color: white;
+	padding-left: 0px;
+	font-size: 18px;
+	margin-left: 0px;
+}
+.footer_email{
+	text-align: center;
+	color: white;
+	font-size: 22px;
+}
+
+.popup {
+	width: 81%;
+  margin: 35px 0px 41px 94px;
+	position: relative;
+}
+.popup input{
+	width: 87%;
+	height: 39px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  padding-left: 50px;
+  font-size: 17px;
+  font-family: "Exo2Regular";
+  color: #fff;
+  margin-bottom: 17px;
+}
+
+.popup input:nth-of-type(1) {
+    background: url(../img/kons_ico_name.png) no-repeat 5% center;
+}
+.popup input:nth-of-type(2) {
+    background: url(../img/kons_ico_mail.png) no-repeat 5% center;
+}
+.popup input:nth-of-type(3) {
+    background: url(../img/kons_ico_phone.png) no-repeat 5% center;
+}
+
+.popup .button{
+	margin: 19px 0px 0px 139px;
+}
+
+.popup .button:before{
+	top: 182px;
+	left: 149px;
+  width: 50%;
+}
+.popup .button:after{
+	bottom: -5px;
+	left: 149px;
+  width: 50%;
+}
+
+
+
+
+
+
+
+
