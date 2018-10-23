@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>График работы</title>
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../Bootstrap/styles/bootstrap.min.css">
+	<script src="../Bootstrap/js/jquery-3.2.1.min.js"></script>
+	<script src="../Bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+		<div class="header_top">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5">
+					<div class="top_phone">
+						<ul>
+							<li><a href="tel:071111111"><strong><span>+38(071)</span>111-11-11</strong></a></li>
+							<li><a href="tel:071111111"><strong><span>+38(071)</span>111-11-11</strong></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-7">
+					<div class="top_addr">
+						<strong>Донецк</strong>
+						<a href="#">ул. Артема 5</a>
+						<button class="gr" data-toggle="popover" data-content="Пн-Пт 9:00 - 18:00
+						Обед 12:00 - 13:00
+						Сб-Вс выходной">График работы</button>
+						<button class="button">Заказать звонок</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="header_logo_menu"  style="border-bottom: 2px solid #febf00;">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5">
+					<div class="header_logo">
+						<img src="../img/logo.png" alt="">
+						<p><strong>Название клиники</strong></p>
+					</div>
+				</div>
+				<div class="col-md-7">
+					<div class="header_menu">
+						<ul class="list-inline">
+							<li><a href="../index.html">Главная</a></li>
+							<li class="dropdown"><a href="" class="dropdown-toggle" data-toggle="dropdown">Сотрудники<span class="caret"></span></a>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="../pages/page1.html">Наши сотрудники</a></li>
+									<li><a href="../pages/page2.html">График работы</a></li>
+								</ul>
+							</li>
+							<li class="activeMU"><a href="../pages/page3.html">Контакты</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<section>
+		<div class="container">
+			<div class="contact">
+				<h3>Запись на прием</h3>
+				<form>
+					<div class="no-spaces">
+						<input type="text" name="name" value="" placeholder="Как к Вам обращаться*">
+						<i class="fa fa-user" aria-hidden="true"></i>
+						<br>
+						<input type="text" name="phone" value="" placeholder="Телефон для связи*">
+						<i class="fa fa-phone" aria-hidden="true"></i>
+						<br>
+							<select name="Text_Typeofpet" id="Typeofpet">
+								<option value="">Тип животного</option>
+								<option value="Кошка">Кошка</option>
+								<option value="Собака">Собака</option>
+								<option value="Лошадь">Лошадь</option>
+								<option value="Хорьки">Хорьки</option>
+								<option value="Грызуны">Грызуны</option>
+								<option value="Экзотические животные">Экзотические животные</option>
+								<option value="Другое">Другое</option>
+							</select>
+						<br>
+						<textarea name="Text_Description" placeholder="Вопрос или комментарий" rows="5"></textarea>
+						<br>
+						<button type="submit" class="button_send">Отправить</button>
+					</div>
+				</form>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="kontacts" style="margin-right: -17%">
+						<div class="title">
+							<h2>Ветеринарная клиника</h2>
+						</div>
+						<p><i class="fa fa-phone" aria-hidden="true"></i>+38(071)111-11-11</p>
+						<p><i class="fa fa-phone" aria-hidden="true"></i>+38(071)111-11-11</p>
+						<p><i class="fa fa-map-marker" aria-hidden="true"></i>Донецк ул. Артема 5</p>
+						<p><i class="fa fa-envelope" aria-hidden="true"></i>email@email.ru</p>
+						<p><i class="fa fa-vk" aria-hidden="true"></i><a href="vk.com">vk.com</a></p>
+					</div>
+					<div class="map">
+						<img src="../img/map.png" alt="" style="width: 550px;">
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Скрипт для открывания графика работ -->
+	<script>
+        $(".gr").popover({animation: true, placement: "bottom"});
+  </script>
+</body>
+</html>

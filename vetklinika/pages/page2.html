@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>График работы</title>
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../Bootstrap/styles/bootstrap.min.css">
+	<script src="../Bootstrap/js/jquery-3.2.1.min.js"></script>
+	<script src="../Bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+		<div class="header_top">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5">
+					<div class="top_phone">
+						<ul>
+							<li><a href="tel:071111111"><strong><span>+38(071)</span>111-11-11</strong></a></li>
+							<li><a href="tel:071111111"><strong><span>+38(071)</span>111-11-11</strong></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-7">
+					<div class="top_addr">
+						<strong>Донецк</strong>
+						<a href="#">ул. Артема 5</a>
+						<button class="gr" data-toggle="popover" data-content="Пн-Пт 9:00 - 18:00
+						Обед 12:00 - 13:00
+						Сб-Вс выходной">График работы</button>
+						<button class="button">Заказать звонок</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="header_logo_menu"  style="border-bottom: 2px solid #febf00;">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5">
+					<div class="header_logo">
+						<img src="../img/logo.png" alt="">
+						<p><strong>Название клиники</strong></p>
+					</div>
+				</div>
+				<div class="col-md-7">
+					<div class="header_menu">
+						<ul class="list-inline">
+							<li class="activeMU"><a href="../index.html">Главная</a></li>
+							<li class="dropdown"><a href="" class="dropdown-toggle" data-toggle="dropdown">Сотрудники<span class="caret"></span></a>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="../pages/page1.html">Наши сотрудники</a></li>
+									<li><a href="../pages/page2.html">График работы</a></li>
+								</ul>
+							</li>
+							<li><a href="../pages/page3.html">Контакты</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h3 style="text-align: center;">График работы персонала</h3>
+					<div class="graph">
+						<ul class="nav nav-tabs">
+							<li class="active"><a href="#doc" data-toggle="tab">График дежурств докторов</a></li>
+							<li><a href="#feld" data-toggle="tab">График дежурств фельдшеров</a></li>
+						</ul>
+						<div class="tab-content">
+							<div id="doc" class="tab-pane in active">
+								<div class="panel">
+									<div class="panel-body">
+										<table class="table table-striped table-bordered">
+											<tbody>
+												<tr>
+													<th>№</th>
+													<th>1</th>
+													<th>2</th>
+													<th>3</th>
+													<th>4</th>
+													<th>5</th>
+													<th>6</th>
+													<th>7</th>
+													<th>8</th>
+													<th>9</th>
+													<th>10</th>
+													<th>11</th>
+													<th>12</th>
+													<th>13</th>
+													<th>14</th>
+													<th>15</th>
+													<th>16</th>
+													<th>17</th>
+													<th>18</th>
+													<th>19</th>
+													<th>20</th>
+													<th>21</th>
+													<th>22</th>
+													<th>23</th>
+													<th>24</th>
+													<th>25</th>
+													<th>26</th>
+													<th>27</th>
+													<th>28</th>
+													<th>29</th>
+													<th>30</th>
+												</tr>
+												<tr>
+													<th>Доктор №1</th>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+												</tr>
+												<tr>
+													<th>Доктор №2</th>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+												</tr>
+												<tr>
+													<th>Доктор №3</th>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+												</tr>
+												<tr>
+													<th>Доктор №4</th>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+												</tr>
+												<tr>
+													<th>Доктор №5</th>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+												</tr>
+											</tbody>
+										</table>
+										<p><strong>P</strong> - рабочие дни; <strong>B</strong> - выходные дни</p>
+									</div>
+								</div>
+							</div>
+								<div id="feld" class="tab-pane">
+								<div class="panel">
+									<div class="panel-body">
+										<table class="table table-striped table-bordered">
+											<tbody>
+												<tr>
+													<th>№</th>
+													<th>1</th>
+													<th>2</th>
+													<th>3</th>
+													<th>4</th>
+													<th>5</th>
+													<th>6</th>
+													<th>7</th>
+													<th>8</th>
+													<th>9</th>
+													<th>10</th>
+													<th>11</th>
+													<th>12</th>
+													<th>13</th>
+													<th>14</th>
+													<th>15</th>
+													<th>16</th>
+													<th>17</th>
+													<th>18</th>
+													<th>19</th>
+													<th>20</th>
+													<th>21</th>
+													<th>22</th>
+													<th>23</th>
+													<th>24</th>
+													<th>25</th>
+													<th>26</th>
+													<th>27</th>
+													<th>28</th>
+													<th>29</th>
+													<th>30</th>
+												</tr>
+												<tr>
+													<th>Фельдшер №1</th>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+												</tr>
+												<tr>
+													<th>Фельдшер №2</th>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+												</tr>
+												<tr>
+													<th>Фельдшер №3</th>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+												</tr>
+												<tr>
+													<th>Фельдшер №4</th>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+												</tr>
+												<tr>
+													<th>Фельдшер №5</th>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+												</tr>
+												<tr>
+													<th>Фельдшер №6</th>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+												</tr>
+												<tr>
+													<th>Фельдшер №7</th>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+												</tr>
+												<tr>
+													<th>Фельдшер №8</th>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+													<td class="work">Р</td>
+													<td class="work">Р</td>
+													<td class="output">В</td>
+													<td class="output">В</td>
+												</tr>
+											</tbody>
+										</table>
+										<p><strong>P</strong> - рабочие дни; <strong>B</strong> - выходные дни</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="kontacts">
+						<div class="title">
+							<h2>Ветеринарная клиника</h2>
+						</div>
+						<p><i class="fa fa-phone" aria-hidden="true"></i>+38(071)111-11-11</p>
+						<p><i class="fa fa-phone" aria-hidden="true"></i>+38(071)111-11-11</p>
+						<p><i class="fa fa-map-marker" aria-hidden="true"></i>Донецк ул. Артема 5</p>
+						<p><i class="fa fa-envelope" aria-hidden="true"></i>email@email.ru</p>
+						<p><i class="fa fa-vk" aria-hidden="true"></i><a href="vk.com">vk.com</a></p>
+					</div>
+					<div class="back_call">
+						<h2>Оставьте свой телефон<br> и мы Вам перезвоним:</h2>
+						<div class="input_form">
+							<form>
+								<input type="text" name="name" value="" placeholder="Ваше имя" required />
+								<i class="fa fa-user" aria-hidden="true"></i>
+								<input type="number" name="phone" value="" placeholder="Ваш телефон" pattern="\+\d\d(\d{3})\-\d{3}\-\d{2}\-\d{2}" required />
+								<i class="fa fa-phone" aria-hidden="true"></i>
+								<button type="submit" class="button_send">Оставить заявку</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Скрипт для открывания графика работ -->
+	<script>
+        $(".gr").popover({animation: true, placement: "bottom"});
+  </script>
+</body>
+</html>
