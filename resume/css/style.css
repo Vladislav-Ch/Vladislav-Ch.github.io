@@ -1,0 +1,148 @@
+.left_colom .col-md-4	{
+	border-right: 2px black dashed;
+}
+
+.foto {
+  background-image: url(../img/DSC_8397_ed.jpg);
+  height: 250px;
+  background-size: 100%;
+  width: 70%;
+  background-repeat: no-repeat;
+  border-radius: 138px;
+  margin: 0 auto;
+}
+
+.name{
+	text-align: center;
+	font-size: 28px;
+}
+
+.icon{
+	float: left;
+	color: #ffdb20;
+	font-size: 40px;
+	width: 45px;
+  text-align: center;
+}
+
+.contacts .text{
+	float: right;
+	margin: -22px 2px -11px 11px;
+}
+
+.contacts .text p{
+	margin: -17px 0px 14px 0;
+}
+
+.address, .birth, .phone, .skype, .mail, .website{
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.contacts, .skils{
+	padding-left: 28px;
+}
+
+.skils{
+	display: inline-block;
+}
+
+.skils .text{
+	float: left;
+  margin: 0 20px 0 0;
+  width: 100px;
+  background-color: #ffdb20;
+  padding: 3px 0px 3px 7px;
+  text-align: center;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+.fiil{
+ height: 22px;
+ background-color: #ffdb20;
+ border-radius: 50px;
+}
+
+.border{
+	border: 1px solid #ffad20;
+	width: 200px;
+	height: 24px;
+	float: right;
+	text-align: center;
+	border-radius: 50px;
+	margin-bottom: 10px;
+}
+
+.border span{
+	position: absolute;
+}
+
+.education, .work{
+	border-bottom: 2px black dashed;
+	margin-left: 30px;
+}
+
+.education .title, .work .title{
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.education_element, .work_experience__element{
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.education_year, .work_experience_year{
+	float: left;
+}
+
+.line{
+	height: 26px;
+  width: 11px;
+  background-color: #ffdb20;
+  border-radius: 50px;
+  position: relative;
+  left: 15px;
+}
+
+.work_experience__element .line{
+	height: 26px;
+  width: 11px;
+  background-color: #ffdb20;
+  border-radius: 50px;
+  position: relative;
+  left: 40px;
+}
+
+.education_year p, .work_experience_year p{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.education_institution, .company{
+	float: right;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+
+.education_institution .title, .company .title{
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.education_institution .text span{
+	text-decoration: underline;
+}
+
+.education_institution .text p, .company .text p{
+	margin-top: 5px!important;
+  margin-bottom: 5px!important;
+}
+
+
