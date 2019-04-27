@@ -1,0 +1,451 @@
+#body{
+    background-color: white;
+}
+
+button{
+    cursor: pointer;
+}
+
+ul{
+    padding-left: 0;
+}
+
+.header{
+    padding-top: 59px;
+    background: url("../img/header/bg.png") top center no-repeat;
+    position: relative;
+    width: 100%;
+    background-size: contain;
+}
+
+.top-header-logo {
+    position: relative;
+    left: -11px;
+    top: -16px;
+}
+
+.top-header-logo img{
+    margin-right: 68px;
+    margin-bottom: -27px;
+}
+
+.top-header-menu .nav-item a{
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-right: 20px;
+    color: white;
+    font-family: SFUIDisplayLight;
+}
+
+.top-header-menu .nav-item a:hover{
+    text-decoration: none;
+    color: #f18036;
+}
+
+.top-header-phone{
+    position: absolute;
+}
+
+.top-header-phone p{
+    display: inline;
+    font-size: 18px;
+    font-family: SFUIDisplayLight;
+}
+
+.top-header-phone span{
+    font-size: 14px;
+    color: #ff4b11;
+    position: absolute;
+    top: 24px;
+    border-bottom: #ff4b11 dashed;
+    font-family: SFUIDisplayLight;
+}
+
+.top-header-menu{
+    padding-left: 36px;
+    z-index: 999;
+    position: relative;
+}
+
+.text-header{
+    margin-top: 220px;
+    float: left;
+    width: 50%;
+}
+
+.text-header h3{
+    font-size: 50px;
+    font-family: InglobalRegular;
+}
+
+.text-header p{
+    font-size: 18px;
+    font-family: SFUIDisplayUltralight;
+    color: rgb(51, 51, 51);
+    line-height: 1.944;
+}
+
+.img-header{
+    position: relative;
+    float: right;
+    width: 50%;
+    left: -22px;
+    top: -64px;
+}
+
+.button-header button{
+    margin-top: 51px;
+    width: 226px;
+    height: 79px;
+    border-radius: 50px;
+    background-color: #00000000;
+    border: #f0a036 solid 3px;
+    font-size: 25px;
+    font-family: InglobalRegular;
+    color: rgb(213, 78, 41);
+    transition: all.45s;
+}
+
+.button-header button:hover{
+    background-color: #f0a036;
+    color: white;
+    background-image: -moz-linear-gradient( 37deg, rgb(240,188,55) 0%, rgb(241,124,54) 100%);
+    background-image: -webkit-linear-gradient( 37deg, rgb(240,188,55) 0%, rgb(241,124,54) 100%);
+    background-image: -ms-linear-gradient( 37deg, rgb(240,188,55) 0%, rgb(241,124,54) 100%);
+}
+
+.form-header{
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255, 0.569);
+    box-shadow: -2.427px 1.763px 12.09px 0.91px rgba(152, 147, 135, 0.35);
+    position: relative;
+    top: -163px;
+    width: 1170px;
+    height: 156px;
+    z-index: 49;
+}
+
+.form-header input{
+    border-width: 1px;
+    border-radius: 30px;
+    border-color: rgb(49, 49, 49);
+    opacity: 0.569;
+    border-style: solid;
+    position: absolute;
+    width: 278px;
+    height: 62px;
+    z-index: 53;
+    top: 50px;
+    padding: 15px;
+}
+
+.form-header input:nth-child(1){
+    left: 31px;
+}
+
+.form-header input:nth-child(2){
+    left: 325px;
+}
+
+.form-header input:nth-child(3){
+    left: 620px;
+}
+
+.form-header button{
+    border-radius: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    background-image: -moz-linear-gradient( 37deg, rgb(240,188,55) 0%, rgb(241,124,54) 100%);
+    background-image: -webkit-linear-gradient( 37deg, rgb(240,188,55) 0%, rgb(241,124,54) 100%);
+    background-image: -ms-linear-gradient( 37deg, rgb(240,188,55) 0%, rgb(241,124,54) 100%);
+    position: absolute;
+    color: white;
+    top: 40px;
+    left: 921px;
+    width: 229px;
+    height: 79px;
+    z-index: 50;
+    font-family: InglobalRegular;
+    font-size: 25px;
+}
+
+.tel{
+    position: relative;
+    background: url("../img/body/bg.png") top center no-repeat;
+    height: 1109px;
+    top: -70px;
+    background-size: contain;
+}
+
+.tel-phone {
+    background-image: url("../img/body/phone.png");
+    height: 961px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.tel-phone img{
+    padding-top: 90px;
+    position: relative;
+    left: 18px;
+}
+
+.tel-text h3{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: InglobalBold;
+    margin-bottom: 68px;
+    padding-top: 260px;
+    line-height: 1.083;
+}
+
+.tel-text p{
+    text-align: justify;
+    font-size: 20px;
+    margin-bottom: 80px;
+    width: 91%;
+    font-family: SFUIDisplayLight;
+}
+
+.tel-text a{
+    margin-top: 75px;
+    display: inline-block;
+    width: 324px;
+}
+
+.tel-text a img{
+    width: 94%;
+}
+
+.footer-form {
+    background: url("../img/footer/bg.png") no-repeat center top;
+    width: 100%;
+    height: 1433px;
+    padding-top: 231px;
+    position: relative;
+    margin-top: -150px;
+    background-size: cover;
+}
+
+.footer-form h3{
+    font-size: 60px;
+    color: white;
+    font-family: InglobalBold;
+
+}
+
+.footer-form p{
+    font-size: 20px;
+    color: black;
+    margin-top: 45px;
+    width: 73%;
+    position: relative;
+    z-index: 3;
+    font-family: SFUIDisplayLight;
+}
+
+.footer-form img{
+    position: absolute;
+    right: -95px;
+    top: -60px;
+    z-index: 2;
+}
+
+
+.footer-form form{
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 17.64px 3.36px rgba(159, 147, 147, 0.16);
+    position: relative;
+    height: 312px;
+    width: 100%;
+    top: 42px;
+    padding-top: 14px;
+    z-index: 1;
+
+}
+
+.form-input input{
+    border-radius: 50px;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    position: relative;
+    width: 37.5%;
+    height: 73px;
+    padding: 20px;
+}
+
+.form-input input::placeholder{
+
+}
+
+.form-input input:nth-child(1){
+    left: 72px;
+}
+
+.form-input input:nth-child(2){
+    right: 63px;
+    float: right;
+}
+
+.footer-form form h3{
+    color: black;
+    font-size: 60px;
+    font-family: InglobalBold;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.footer-form button{
+    border-style: solid;
+    border-radius: 50px;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    background-image: -moz-linear-gradient( 37deg, rgb(240,188,55) 0%, rgb(241,124,54) 100%);
+    background-image: -webkit-linear-gradient( 37deg, rgb(240,188,55) 0%, rgb(241,124,54) 100%);
+    background-image: -ms-linear-gradient( 37deg, rgb(240,188,55) 0%, rgb(241,124,54) 100%);
+    position: absolute;
+    width: 250px;
+    height: 72px;
+    bottom: -46px;
+    right: 439px;
+    font-family: InglobalRegular;
+    color: white;
+    font-size: 26px;
+}
+
+.footer-form .radio{
+    margin-top: 22px;
+    margin-left: 75px;
+    font-size: 20px;
+    font-family: SFUIDisplayRegular;
+}
+
+.footer-form .radio input:nth-child(2){
+    margin-left: 158px;
+}
+
+.footer-form .radio input:nth-child(3){
+    margin-left: 204px;
+}
+
+.footer-form .radio input:nth-child(4){
+    margin-left: 218px;
+}
+.column-1 h3, .column-2 h3, .column-3 h3{
+    font-size: 30px;
+    font-family: InglobalBold;
+    margin-bottom: 21px;
+    color: black;
+    margin-top: 178px;
+}
+
+.column-1 a, .column-2 a, .column-3 a {
+    font-size: 29px;
+    color: black;
+    font-family: InglobalRegular;
+    line-height: 2.1;
+}
+
+.footer-form .column-3 p{
+    text-align: right;
+    width: 100%;
+    font-family: InglobalRegular;
+    font-size: 29px;
+    color: black;
+    line-height: 1.1;
+}
+
+.footer-form a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.column-3, .column-3 .nav {
+    text-align: right;
+    float: right;
+}
+
+.column-3 .nav li{
+    border: 1px solid;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50px;
+    margin-left: 26px;
+}
+
+.column-3 .nav .fa{
+    font-size: 26px;
+    top: -11px;
+    position: relative;
+}
+
+.column-3 img{
+    position: relative;
+    display: inline-block;
+    width: 33%;
+    right: 0;
+    top: 0;
+}
+
+.play{
+    position: absolute;
+    display: block;
+    bottom: 159px;
+    width: 200px;
+    height: 200px;
+}
+
+.play a:hover{
+    text-decoration: none;
+}
+
+.play img{
+    position: relative;
+}
+
+.play img:nth-child(1){
+    left: 195px;
+    top: 15px;
+    position: absolute;
+}
+
+.play img:nth-child(2){
+    left: 195px;
+    top: 15px;
+    position: absolute;
+    animation: spin 5s linear 0s infinite;
+}
+
+.play img:nth-child(3){
+    left: 195px;
+    top: 15px;
+    position: absolute;
+    animation: spin2 5s linear 0s infinite;
+}
+
+.play img:nth-child(4){
+    left: 195px;
+    top: 15px;
+    position: absolute;
+}
+
+
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+@keyframes spin2 {
+    from {transform:rotate(360deg);}
+    to {transform:rotate(0deg);}
+}
+
+/*----- Toggle Button -----*/
+.toggle-nav {
+    display:none;
+}
+
+
