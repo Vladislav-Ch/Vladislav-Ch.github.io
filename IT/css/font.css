@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "InglobalRegular";
+    src: url("../fonts/InglobalRegular/InglobalRegular.eot");
+    src: url("../fonts/InglobalRegular/InglobalRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/InglobalRegular/InglobalRegular.woff") format("woff"),
+    url("../fonts/InglobalRegular/InglobalRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "InglobalBold";
+    src: url("../fonts/InglobalBold/InglobalBold.eot");
+    src: url("../fonts/InglobalBold/InglobalBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/InglobalBold/InglobalBold.woff") format("woff"),
+    url("../fonts/InglobalBold/InglobalBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "SFUIDisplayLight";
+    src: url("../fonts/SFUIDisplayLight/SFUIDisplay-Light.eot");
+    src: url("../fonts/SFUIDisplayLight/SFUIDisplay-Light.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SFUIDisplayLight/SFUIDisplay-Light.woff") format("woff"),
+    url("../fonts/SFUIDisplayLight/SFUIDisplay-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "SFUIDisplayUltralight";
+    src: url("../fonts/SFUIDisplayUltralight/SFUIDisplay-Ultralight.eot");
+    src: url("../fonts/SFUIDisplayUltralight/SFUIDisplay-Ultralight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SFUIDisplayUltralight/SFUIDisplay-Ultralight.woff") format("woff"),
+    url("../fonts/SFUIDisplayUltralight/SFUIDisplay-Ultralight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "SFUIDisplayRegular";
+    src: url("../fonts/SFUIDisplayRegular/SFUIDisplay-Regular.eot");
+    src: url("../fonts/SFUIDisplayRegular/SFUIDisplay-Regular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SFUIDisplayRegular/SFUIDisplay-Regular.woff") format("woff"),
+    url("../fonts/SFUIDisplayRegular/SFUIDisplay-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
