@@ -1,0 +1,226 @@
+@import "vars"
+@import "fonts"
+@import "libs"
+
+*
+	position: relative
+	box-sizing: border-box
+
+body
+	margin: 0
+	overflow: hidden auto
+
+\:focus
+	outline: 0
+	outline-offset: 0
+
+.container
+	max-width: 960px
+	margin-left: auto
+	margin-right: auto
+
+.header
+	h1
+		margin-top: 4px
+		margin-bottom: 19px
+		font-family: NeoSansPro-Medium
+		font-size: 28px
+	.container
+		.nav
+			display: flex
+			font-size: 13px
+			font-family: MyriadPro-Regular
+			color: #939ca2
+			.fa
+				margin-top: 32px
+			.breadcrumb
+				display: flex
+				margin-top: 32px
+				padding-left: 6px
+				li
+					list-style: none
+					&::after
+						content: ''
+						width: 13px
+						height: 1px
+						background: #939ca2
+						display: inline-block
+						vertical-align: middle
+						margin: 0 6px 0 6px
+					&:last-child::after
+						content: none
+					a
+						color: #939ca2
+						text-decoration: none
+						border-bottom: 1px solid #939ca2
+						&:hover
+							border-bottom: none
+
+.main
+	.container
+		.filter
+			background: #eef8ff
+			border: 2px solid #e5f0fb
+			border-radius: 10px
+			padding: 11px 15px 10px 11px
+			display: flex
+			justify-content: space-between
+			font-size: 14px
+			font-family: NeoSansPro-Regular
+			color: #4c4c4c
+			.line
+				border-right: 1px solid #c2d1dc
+			.radiobutton
+				form
+					display: flex
+					p
+						margin: 0 11px 0 0
+					input
+						margin: 0
+						display: none
+						&:checked + label
+							border: 2px red solid
+					label
+						cursor: pointer
+						width: 16px
+						height: 16px
+						border-radius: 50%
+						margin-right: 5px
+						border: 2px #eef8ff solid
+				.red
+					background: #e30013
+				.black
+					background: #3b3b3b
+				.white
+					background: white
+				.yellow
+					background: #e3c400
+				.green
+					background: #76e300
+				.purple
+					background: #e300a0
+				.grey
+					background: #e37000
+			.checkbox
+				input
+					display: none
+					&:checked + label::before
+						background: #f73e3d url("../img/check.png") no-repeat center
+						border: 1px solid #c12524
+				label
+					cursor: pointer
+					padding-left: 26px
+					padding-right: 16px
+					&::before
+						content: ''
+						position: absolute
+						left: 0
+						width: 16px
+						height: 16px
+						background: #d7e2ea
+						border: 1px #bdcbd5
+						border-radius: 4px
+			.sort
+				p
+					margin: 0
+		.goods
+			margin-top: 24px
+			margin-bottom: 30px
+			display: flex
+			flex-wrap: wrap
+			.goods-item
+				border: 1px solid #d0dbe6
+				border-radius: 10px
+				max-width: 190px
+				text-align: center
+				font-family: NeoSansPro-Regular
+				.item-img
+					padding-top: 13px
+					padding-bottom: 13px
+					background: url("../img/ball.png") no-repeat center
+					height: 131px
+				p
+					margin: 0
+					padding: 6px 13px 0 13px
+					strong
+						font-family: NeoSansPro-Bold
+					&:nth-child(3)
+						min-height: 62px
+				a
+					padding-left: 13px
+				.delete-price
+					padding: 0px
+					&:before
+						border-bottom: 2px solid red
+						position: absolute
+						content: ""
+						width: 15%
+						height: 37%
+						transform: rotate(-20deg)
+				form
+					background: #eef8ff
+					border-radius: 20px
+					height: 40px
+					width: 125px
+					display: flex
+					justify-content: space-between
+					margin: auto
+					input
+						width: 62px
+						border-radius: 20px
+						border: 1px solid #c9c9c9
+						height: 29px
+						margin: auto 5px
+					.btn
+						display: flex
+						flex-direction: column
+						justify-content: center
+						button
+							background: #fff0
+							border: none
+							padding: 0
+							font-family: JazzBall
+							color: #798690
+							font-size: 19px
+							height: 25%
+							&:hover
+								cursor: pointer
+					.cart
+						background: #f73d3c
+						border: none
+						border-radius: 50%
+						width: 40px
+						&:hover
+							cursor: pointer
+		.paginate
+			background: #eef8ff
+			border: 2px solid #e5f0fb
+			border-radius: 10px
+			padding: 17px 16px 15px 16px
+			margin-bottom: 10px
+			ul
+				display: flex
+				list-style: none
+				padding: 0
+				justify-content: center
+				margin: 0
+				.button-back
+					flex: 1
+					text-align: left
+				.button-next
+					flex: 1
+					text-align: right
+				li
+					a
+						color: #60666a
+						font-size: 15px
+						font-family: MyriadPro-Regular
+						border-bottom: 1px solid #aaaaaa
+						text-decoration: none
+						margin: 7px
+						&:hover
+							border-bottom: none
+							cursor: pointer
+
+
+//@import "media" // Always at the end

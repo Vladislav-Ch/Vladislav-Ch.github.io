@@ -1,0 +1,71 @@
+@import "vars"
+@import "fonts"
+@import "libs"
+
+::placeholder
+	color: #666
+
+::selection
+	background-color: $accent
+	color: #fff
+
+*
+  position: relative
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+li
+	display: flex
+	list-style: none
+body
+  overflow-x: hidden
+  input, textarea
+	  border: #666 1px solid
+	  outline: none
+	  &:focus:required:invalid
+	  	border-color: red
+	  &:required:valid
+	  	border-color: green
+
+.container
+   margin: 0 auto
+
+
+.top-line-header
+	background-color: rgb(17, 117, 183)
+	color: white
+	font-size: 16px
+	font-family: Raleway_Regular
+	display: flex
+	justify-content: space-between
+	.top-line-contacts
+		display: flex
+		p
+			margin-right: 40px
+			&:last-child
+				margin-right: 0
+			.fa
+				margin-right: 8px
+				color: #f6a937
+	.top-line-social
+		ul
+			display: flex
+			li
+				margin-right: 28px
+				&:last-child
+					margin-right: 0
+				a
+					color: white
+					transition: all.45s
+
+					&:hover
+						color: #f6a937
+
+.top-header-menu
+	background: white
+
+
+
+
+
+//@import "media" // Always at the end
