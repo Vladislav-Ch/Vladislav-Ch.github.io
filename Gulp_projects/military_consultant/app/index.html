@@ -39,13 +39,13 @@
 				<div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
 					<div class="contacts">
 						<div class="address">
-							<p><span>г.Новосибирск</span> <br> ул.Ленина 21/1 корпус 1 <br> БЦ МАНХЭТТЕН офис 304</p>
+							<p><span>г.Новосибирск</span> <br> ул.Ленина 21/1 корпус 1, офис 304 <br> БЦ МАНХЭТТЕН </p>
 						</div>
 						<div class="phone">
 							<p><a href="tel:88003333333"><i class="fa fa-phone" aria-hidden="true"></i>8-923-131-71-33</a>
 								<br>
 								<i class="fa fa-clock-o" aria-hidden="true"></i>Ежедневно с 10:00 до 19:00</p>
-							<button class="main-btn" data-toggle="modal" data-target="#exampleModal">Заказать звонок</button>
+							<button class="main-btn" data-toggle="modal" data-target="#callme" data-service="Заказать звонок">Заказать звонок</button>
 						</div>
 					</div>
 				</div>
@@ -56,12 +56,32 @@
 				<div class="row">
 					<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
                         <nav class="menu">
-                            <ul class="list-inline active">
-                                <li class="list-inline-item current-item"><a href="#">Главная</a></li>
-                                <li class="list-inline-item"><a href="#">О компании</a></li>
-                                <li class="list-inline-item"><a href="#">Услуги</a></li>
-                                <li class="list-inline-item"><a href="#">Информация для призывника</a></li>
-                                <li class="list-inline-item"><a href="#">Контакты</a></li>
+                            <ul class="nav list-inline justify-content-center d-flex active">
+								<!--<ul class="nav">-->
+									<!--<li class="nav-item">-->
+										<!--<a class=" list-inline-item active" id="header-main-tab" data-toggle="tab" href="#header-main" role="tab" aria-controls="header-main" aria-selected="true">Главная</a>-->
+									<!--</li>-->
+									<!--<li class="nav-item">-->
+										<!--<a class="list-inline-item" id="header-o-kompanii-tab" data-toggle="tab" href="#header-o-kompanii" role="tab" aria-controls="header-o-kompanii" aria-selected="false">О Компании</a>-->
+									<!--</li>-->
+									<!--<li class="nav-item">-->
+										<!--<a class="list-inline-item" id="header-information-tab" data-toggle="tab" href="#header-information" role="tab" aria-controls="header-information" aria-selected="false">Информация</a>-->
+									<!--</li>-->
+								<!--</ul>-->
+								<li class="nav-item">
+									<a class=" list-inline-item active" id="header-main-tab" data-toggle="tab" href="#header-main" role="tab" aria-controls="header-main" aria-selected="true">Главная</a>
+								</li>
+								<li class="nav-item">
+									<a class="list-inline-item" id="header-o-kompanii-tab" data-toggle="tab" href="#header-o-kompanii" role="tab" aria-controls="header-o-kompanii" aria-selected="false">О Компании</a>
+								</li>
+								<li class="nav-item">
+									<a class="list-inline-item" id="header-information-tab" data-toggle="tab" href="#header-information" role="tab" aria-controls="header-information" aria-selected="false">Информация</a>
+								</li>
+                                <!--<li class="list-inline-item current-item"><a href="#">Главная</a></li>-->
+                                <!--<li class="list-inline-item"><a href="#">О компании</a></li>-->
+                                <li class="list-inline-item"><a href="#price">Услуги</a></li>
+                                <!--<li class="list-inline-item"><a href="#">Информация</a></li>-->
+                                <li class="list-inline-item"><a href="#footer">Контакты</a></li>
                             </ul>
 
                             <a class="toggle-nav" href="#">&#9776;</a>
@@ -71,27 +91,39 @@
 				</div>
 			</div>
 		</div>
-		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<img class="d-block w-100" src="img/slider/bg_main.jpg" alt="First slide">
-				</div>
-				<div class="carousel-item">
-					<img class="d-block w-100" src="img/slider/bg_main.jpg" alt="Second slide">
-				</div>
-				<div class="carousel-item">
-					<img class="d-block w-100" src="img/slider/bg_main.jpg" alt="Third slide">
-				</div>
-			</div>
-			<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="sr-only">Назад</span>
-			</a>
-			<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="sr-only">Далее</span>
-			</a>
-		</div>
+		<div class="header-info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+
+						<div class="tab-content" id="myTabContent">
+							<div class="tab-pane fade m-auto show active" id="header-main" role="tabpanel" aria-labelledby="home-tab">
+								<p>Защита прав граждан подлежащих призыву на военную службу и военнослужащих— деятельность, оказываемая «Военным консультантом», главная цель которой охрана прав и свобод граждан подлежащих призыву на военную службу, обеспечение их соблюдения.</p>
+								<p>Граждане при любых ситуациях во время призыва или прохождения военной службы обладают не только обязанностями, но правами, прямо предусмотренными Конституцией Российской Федерации, Всеобщей декларации прав человека, Федеральным законом "О воинской обязанности и военной службе" от 28.03.1998 N 53-ФЗ, Федеральным законом "О статусе военнослужащих", Федеральным законом от 28 марта 1998 г. N 52-ФЗ "Об обязательном государственном страховании жизни и здоровья военнослужащих...» и иными нормативно правовыми актами, действующими на территории Российской Федерации.</p>
+								<p>С каждым клиентом, начиная с первого обращения, работают закрепленные за ним сотрудники. Все вопросы взаимодействия нашей компании и клиента закреплены в договоре, в котором подробно расписаны все этапы работы.</p>
+								<p>Юристы "Военного Консультанта" специализируются не только на военном праве, но и на смежных отраслях права. Мы защищаем права своих Клиентов и оказываем юридические услуги, целью которых является защита законных прав и свобод призывников и военнослужащих, а так же информирование клиентов по интересующим их вопросам в области военного права и смежных отраслях права.</p>
+							</div>
+							<div class="tab-pane fade" id="header-o-kompanii" role="tabpanel" aria-labelledby="profile-tab">
+								<p>Военный консультант защищает интересы клиентов в области военного права более 5 лет. </p>
+								<p>Методы и принципы работы компании основываются на действующем законодательстве РФ с учетом постоянного изменения норм права, регулирующих отношения в области военной службы. За время работы, специалистами накоплен огромный практический судебный опыт в данной сфере.</p>
+								<p>С каждым клиентом, начиная с первого обращения, работают закрепленные за ним сотрудники. Мы разъясним все права и обязанности связанные с возникшей ситуацией, консультируем по вопросам, возникающим в ходе работы над обращением, рассматриваем все пути разрешения спорных правоотношений.</p>
+								<p>Основными причинами обращений являются многочисленные нарушения Федерального закона "О воинской обязанности и военной службе" от 28.03.1998 N 53-ФЗ, Федерального закона "О статусе военнослужащих" от 27.05.1998 N 76-ФЗ, в том числе и неисполнение сотрудниками государственных учреждений, медицинских учреждений возложенных законом обязанностей, игнорирование прав граждан. </p>
+								<p>Юрист помогает избежать подобных ситуаций. Мы обжалуем нарушения со стороны должностных лиц, представляем интересы клиента в военном комиссариате, медицинских учреждениях, федеральных судах общей юрисдикции, в том числе военных судах.</p>
+								<p>Все вопросы взаимодействия нашей компании и клиента закреплены в договоре, в котором подробно расписаны все этапы работы.</p>
+							</div>
+							<div class="tab-pane fade" id="header-information" role="tabpanel" aria-labelledby="contact-tab">
+								<p>Федеральный закон "О статусе военнослужащих" от 27.05.1998 N 76-ФЗ (последняя редакция) <a href="http://www.consultant.ru/document/cons_doc_LAW_18853/">ссылка</a></p>
+								<p>Федеральный закон "О статусе военнослужащих" от 27.05.1998 N 76-ФЗ (последняя редакция) <a href="http://www.consultant.ru/document/cons_doc_LAW_18853/">ссылка</a> </p>
+								<p>Постановление Правительства РФ от 04.07.2013 N 565 (ред. от 16.03.2019) "Об утверждении Положения о военно-врачебной экспертизе"
+									<a href="http://www.consultant.ru/document/cons_doc_LAW_149096/">ссылка</a></p>
+								<p>Закон РФ от 12 февраля 1993 г. N 4468-I "О пенсионном обеспечении лиц, проходивших военную службу, службу в органах внутренних дел, Государственной противопожарной службе, органах по контролю за оборотом наркотических средств и психотропных веществ, учреждениях и органах уголовно-исполнительной системы, Федеральной службе войск национальной гвардии Российской Федерации, и их семей"
+									<a href="https://base.garant.ru/57746880/">ссылка</a></p>
+							</div>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
 	<div class="form">
 		<div class="container">
@@ -106,18 +138,18 @@
 					<div class="form-input">
 						<form id="form-send" method="post">
 							<input class="input-group" name="name" type="text" placeholder="ФИО*" required>
-							<input class="input-group" name="phone" type="number" placeholder="Телефон*" required>
+							<input class="input-group" id="phone" name="phone" type="text" placeholder="Телефон*" required>
 							<input class="input-group" name="text" type="text" placeholder="Введите сообщение" required>
 							<input type="hidden" name="type" value="Заказ звонка">
 							<p><a href="/agreement.php" rel="nofollow" target="_blank" title="отправляя форму Вы даете согласие на обработку своих персональных данных">согласие на обработку персональных данных</a></p>
-							<button class="form-btn" type="submit">Отправит</button>
+							<button class="form-btn" type="submit">Отправить</button>
 						</form>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="price">
+	<div class="price" id="price">
 		<div class="container">
 			<div class="row">
 				<div class="price-title">
@@ -129,13 +161,13 @@
 
 							<div class="left">
 								<i class="fa fa-star" aria-hidden="true"></i>
-								<h3>ВОЕННЫЙ БИЛЕТ</h3>
-								<p>Для тех, кто хочет законно освободиться от призыва в армию и получить военный билет на законных основаниях</p>
+								<h3>Полное юридическое сопровождение</h3>
+                                <p>В пакет включены устные и письменные консультации</p>
 							</div>
 
 							<div class="right">
-								<h3>39 000 <i class="fa fa-rub" aria-hidden="true"></i></h3>
-								<p>Возможна рассрочка <br> на 3 и 12 месяцев</p>
+								<h3>От 60 000 рублей <i class="fa fa-rub" aria-hidden="true"></i></h3>
+								<p>Возможна рассрочка <br> на 6 месяцев</p>
 								<button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 									<i class="fa fa-arrow-up" aria-hidden="true"></i>
 								</button>
@@ -144,13 +176,18 @@
 
 						<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
 							<div class="card-body">
-								 <ul>
-									 <li>Полное юридическое сопровождение призывника</li>
-									 <li>Защита от незаконной отправки в армию до конца ближайшего или текущего призыва</li>
-								 </ul>
-								<form action="" method="post">
-									<button class="price-btn" type="submit">Выбрать тариф</button>
-								</form>
+                                <ul>
+                                    <li>Анализ спорных правоотношений</li>
+                                    <li>Выездное сопровождение (в случае необходимости)</li>
+                                    <li>Направление всех юридически значимых документов за наш счет</li>
+                                    <li>Дистанционная работа (в случае длительного отсутствия)</li>
+                                    <li>Подготовка и направление искового заявления в суд (в случае нарушения законодательства)</li>
+                                    <li>Представление интересов в суде (в случае необходимости участия в судебном заседании)</li>
+                                    <li>Обжалование незаконных действий (бездействий) должностных лиц</li>
+                                    <li>Взыскание судебных издержек, связанных с судебным разбирательством, в случае их возникновения</li>
+                                    <li>Сопровождение исполнительного производства (после получения исполнительного документа)</li>
+                                </ul>
+								<button class="price-btn" data-toggle="modal" data-target="#callme" data-service="Полное юридическое сопровождение" type="submit">Выбрать тариф</button>
 							</div>
 						</div>
 					</div>
@@ -159,13 +196,13 @@
 
 							<div class="left">
 								<i class="fa fa-star" aria-hidden="true"></i>
-								<h3>ОТМЕНА ОТПРАВКИ</h3>
-								<p>Для тех, кто хочет законно освободиться от призыва в армию и получить военный билет, если была вручена повестка на контрольную явку или отправку в войска</p>
+								<h3>Стандарт</h3>
+								<p>В пакет включены устные консультации и подготовка юридически значимых документов.</p>
 							</div>
 
 							<div class="right">
-								<h3>49 000 <i class="fa fa-rub" aria-hidden="true"></i></h3>
-								<p>Возможна рассрочка <br> на 3 и 12 месяцев</p>
+								<h3>От 49 000 рублей <i class="fa fa-rub" aria-hidden="true"></i></h3>
+								<p>Возможна рассрочка <br> на 5 месяцев</p>
 								<button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
 									<i class="fa fa-arrow-up" aria-hidden="true"></i>
 								</button>
@@ -175,13 +212,12 @@
 						<div id="collapseTwo" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
 							<div class="card-body">
 								<ul>
-									<li>Законная отмена отправки за один день</li>
-									<li>Полное юридическое сопровождение призывника</li>
-									<li>Защита от незаконной отправки в армию до конца ближайшего или текущего призыва</li>
+                                    <li>Анализ спорных правоотношений</li>
+									<li>Подготовка юридически значимых документов (ходатайств, заявлений, претензий, уведомлений)</li>
+                                    <li>Подготовка и направление искового заявления в суд (в случае нарушения законодательства)</li>
+									<li>Участие в судебных заседаниях первой инстанции в случае обжалования незаконных решений, действий (бездействий) должностных лиц</li>
 								</ul>
-								<form action="" method="post">
-									<button class="price-btn" type="submit">Выбрать тариф</button>
-								</form>
+								<button class="price-btn" data-toggle="modal" data-target="#callme" data-service="Стандарт" type="submit">Выбрать тариф</button>
 							</div>
 						</div>
 					</div>
@@ -190,13 +226,11 @@
 
 							<div class="left">
 								<i class="fa fa-star" aria-hidden="true"></i>
-								<h3>ОТСРОЧКА</h3>
-								<p>Для тех, кто хочет законно получить отсрочку от призыва в армию на один призыв</p>
+								<h3>Базовый</h3>
 							</div>
 
 							<div class="right">
-								<h3>10 000 <i class="fa fa-rub" aria-hidden="true"></i></h3>
-								<p>Возможна рассрочка <br> на 3 и 12 месяцев</p>
+								<h3>От 20 000 рублей <i class="fa fa-rub" aria-hidden="true"></i></h3>
 								<button class="btn btn-link" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne">
 									<i class="fa fa-arrow-up" aria-hidden="true"></i>
 								</button>
@@ -205,13 +239,9 @@
 
 						<div id="collapseThree" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
 							<div class="card-body">
-								<ul>
-									<li>Полное юридическое сопровождение призывника</li>
-									<li>Защита от незаконной отправки в армию до конца ближайшего или текущего призыва</li>
-								</ul>
-								<form action="" method="post">
-									<button class="price-btn" type="submit">Выбрать тариф</button>
-								</form>
+								<p>В случае явного нарушения Ваших прав, мы проанализируем возникшую ситуацию, подготовим необходимые заявления (ходатайства). В случае отказа в удовлетворении требований по заявлению (ходатайству), мы подготовим исковое заявление и отменим незаконное решение, нарушающее права, свободы и законные интересы.</p>
+
+								<button class="price-btn" data-toggle="modal" data-target="#callme" data-service="Базовый" type="submit">Выбрать тариф</button>
 							</div>
 						</div>
 					</div>
@@ -224,7 +254,7 @@
 			<div class="row">
 				<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
 					<div class="scheme-title">
-						<h3>Общая схема получения военного билета по-шагам</h3>
+						<h3>Общая схема работы</h3>
 					</div>
 					<div class="scheme-items">
 						<div class="scheme-item">
@@ -232,10 +262,10 @@
 								<i class="fa fa-laptop" aria-hidden="true"></i>
 							</div>
 							<div class="item-title">
-								<h3>1. Консультация и заключение договора</h3>
+								<h3>1. Выявление проблемы и заключение договора</h3>
 							</div>
 							<div class="item-text">
-								<p>С вами проводят бесплатную консультацию, где военный юрист выяснит ситуацию с военкоматом. Заключается официальный договор с гарантией возврата средств</p>
+								<p>В рамках данного этапа, юристы проанализируют ситуацию, ознакомятся с имеющимися документами, составят план работы, подготовят первичные юридические документы.</p>
 							</div>
 						</div>
 						<div class="scheme-item">
@@ -243,10 +273,10 @@
 								<i class="fa fa-user-md" aria-hidden="true"></i>
 							</div>
 							<div class="item-title">
-								<h3>2. Обследование и юридическая подготовка</h3>
+								<h3>2. Подготовка</h3>
 							</div>
 							<div class="item-text">
-								<p>Вас отправляют на дополнительные медицинские обследования, далее юрист правильно оформляет документы для военкомата.</p>
+								<p>На основании данных, полученных на первом этапе, юристы дадут необходимые рекомендации (в соответствии с договором), проконтролируют сроки и качество прохождения всех необходимых мероприятий. В случае нарушения порядка прохождения мероприятий, обратятся с соответствующим заявлением. Проанализируют дополнительные сведения, полученные в результате работы.</p>
 							</div>
 						</div>
 						<div class="scheme-item">
@@ -254,10 +284,10 @@
 								<i class="fa fa-file-text-o" aria-hidden="true"></i>
 							</div>
 							<div class="item-title">
-								<h3>3. Подтверждение болезни и получение военного билета</h3>
+								<h3>3. Получение результата</h3>
 							</div>
 							<div class="item-text">
-								<p>Военкомат принимает ваше заболевание и отправляет на подтверждение. В противном случае, мы обжалуем решение комиссии в суде. В итоге вы получаете законный военный билет.</p>
+								<p>После завершения всех подготовительных этапов и сбора необходимых подтверждающих документов, юристы проконтролируют законность и сроки получения необходимого результата. В случае вынесения незаконного решения, обжалуют его в вышестоящей инстанции до вынесения объективного решения, отвечающего всем требованиям законодательства.</p>
 							</div>
 						</div>
 					</div>
@@ -363,34 +393,37 @@
 						<h3>Распространненые ошибки призывников</h3>
 					</div>
 				</div>
-				<div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
-					<h3>Призывник не знает закона</h3>
-					<p>Государственные СМИ не всегда дают полную информацию о правах призывников. Знаете ли вы, что призывника не должны и не могут забрать из учебного заведения, на улице или в других местах массового скопления людей? Не зная своих прав, призывник делает ошибку за ошибкой, например, подписывает объяснительные письма, обличающие призывника в уклонении от армии, хотя на деле ответственный за повестку сотрудник забыл ее вручить. Такие ошибки только приближают призывника к армии.</p>
-				</div>
-				<div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
-					<h3>Все боятся суда и прокуратуры</h3>
-					<p>Обращение в суд — это законный способ отстаивать свои права. Правда, многие призывники боятся это делать. Но если не постоять за себя самому, или не обратиться за помощью к нашим профессиональным юристам, то есть большой риск оказаться призванным в ряды Вооружённых Сил РФ, даже при наличии у вас серьёзного нарушения здоровья! Также нередко призывника пугают необоснованными угрозами отправить дело в прокуратуру.</p>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="form-two" id="form-two">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-					<div class="form-two-title">
-						<h3>Если Вы все же решили не обращаться к нам и самостоятельно отстаивать свои права</h3>
+				<div class="col-md-12">
+					<div class="row">
+						<div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+							<h3>Не заниматься возникшей ситуацией, пустить ее «на самотёк»</h3>
+							<p>Зачастую в случае возникновения спорной ситуации, требующей вмешательства юриста, при отсутствии каких – либо действий со стороны клиента, эта ситуация может перерасти в большую проблему. Иногда пассивное поведение может повлечь за собой негативные последствия, вплоть до привлечения к уголовной ответственности.</p>
+						</div>
+						<div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+							<h3>В случае попытки самостоятельного решения спорной ситуации, наткнуться на нарушение прав и проигнорировать это нарушение</h3>
+							<p>Достаточно часто, причиной нарушения законодательства является отсутствие юридической грамотности или банально нежелание разбираться в проблеме. При этом, незаконные действия (бездействия) остаются безнаказанными, а негативный результат нарушающий Ваши права уже нельзя изменить в виду пропуска срока.</p>
+						</div>
 					</div>
-					<div class="form-two-text">
-						<p>Мы пришлем электронную версию учебника-практикума <br> "Как законно получить военный билет" на ваше почту</p>
-						<form id="form-send" method="post">
-							<input class="input-group" name="e-mail" type="text" placeholder="Email" required>
-							<input type="hidden" name="type" value="Форма получения учебника">
-							<button class="main-btn">Получить учебник</button>
-						</form>
+					<div class="row">
+						<div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+							<h3>Абсолютная уверенность в собственной правоте и возможности решить возникшую проблему самостоятельно</h3>
+							<p>Много раз юристам приходилось активно действовать, для того, что бы найти выход из ситуации, причиной которой стало одно неверное решение. Кроме того, действующее законодательство иногда запрещает представление собственных интересов в случае отсутствия высшего юридического образования или статуса адвоката. Законодатель не даром ограничил возможность самостоятельного представления интересов, так как всего один неверный шаг, может привести к полному и окончательному отказу в восстановлении нарушенного права.</p>
+						</div>
+						<div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+							<h3>Банальное незнание собственных прав, предусмотренных законом</h3>
+							<p>Очень много раз нам напоминают исключительно об обязанностях, при этом забывая о наличии законных прав. Очень важно понимать, что каждое действие или бездействие влечет последствия. В случае нарушения Ваших прав, необходимо вовремя отреагировать. В случае нарушения прав Вами, необходимо предпринять все законные действия, для того, что бы не быть привлеченным к ответственности.</p>
+						</div>
 					</div>
+					<div class="row">
+						<div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+							<h3>Боязнь обращения в государственные органы (суды, прокуратуры, правоохранительные органы)</h3>
+							<p>Обращение в государственные органы или суды— это законный способ отстаивать свои права. Многие боятся этого делать. Но если не постоять за себя самому, или не обратиться за помощью к профессиональным юристам, то есть большой риск оказаться принятия в отношении Вас незаконного решения.</p>
+						</div>
+					</div>
+				</div>
 
-				</div>
+
+
 			</div>
 		</div>
 	</section>
@@ -408,7 +441,7 @@
                 <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
                     <div class="contact">
                         <h3>Контакты</h3>
-						<p>г.Новосибирск<br> ул.Ленина 21/1 корпус 1 <br> БЦ МАНХЭТТЕН офис 304</p>
+						<p>г.Новосибирск<br> ул.Ленина 21/1 корпус 1, офис 304 <br> БЦ МАНХЭТТЕН</p>
                         <p>89231317133@mail.ru</p>
 						<p>8 923 131-71-33</p>
 						<p>8(383)375-17-31</p>
@@ -419,7 +452,7 @@
                     <div class="navigation">
                         <h3>Навигация</h3>
                         <ul class="list-unstyled">
-                            <li><a href="#">Услуги</a></li>
+                            <li><a href="#price">Услуги</a></li>
                             <li><a href="#">Информация для призывника</a></li>
                             <li><a href="#">О компании</a></li>
                             <li><a href="#">Контакты</a></li>
@@ -439,28 +472,27 @@
         </div>
     </footer>
 
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form id="form-send"  method="post">
-                        <input class="input-group" name="name" type="text" required placeholder="ФИО">
-                        <input class="input-group" name="phone" type="tel" required placeholder="Телефон">
-						<input type="hidden" name="type" value="Заказ звонка">
-                        <button class="main-btn" type="submit">Отправить</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
+	<!-- Modal -->
+	<div class="modal fade" id="callme" tabindex="-1" role="dialog">
+		<div class="modal-dialog modal-sm modal-content" role="document">
+			<div class="modal-header">
+				<h4 class="modal-title">Оставьте заявку</h4>
+				<button class="close fa fa-times" data-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<small>Мы перезвоним и поможем Вам</small>
+			<div class="service2"></div>
+			<form method="post" class="modal-body">
+				<input name="name" id="name" type="text" class="form-control" placeholder="Имя" required>
+				<input name="phone" id="phone" type="text" class="form-control" placeholder="Телефон" required>
+				<input name="service" type="hidden">
+				<textarea name="message" class="form-group form-control" rows="2" placeholder="Вопрос или комментарий"></textarea>
+				<input type="submit" class="btn btn-success" value="Заказать звонок">
+			</form>
+		</div>
+	</div>
 
 	<script src="js/scripts.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
 
 </body>
 </html>

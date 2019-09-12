@@ -1,0 +1,532 @@
+@import "vars"
+@import "fonts"
+@import "libs"
+
+::placeholder
+	color: #666
+
+::selection
+	background-color: $accent
+	color: #fff
+
+*
+	position: relative
+
+body
+	font-family: Montserrat-Regular!important
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	overflow-x: hidden
+	color: $text
+	input, textarea
+		border: #666 1px solid
+		outline: none
+		&:focus:required:invalid
+			border-color: red
+		&:required:valid
+			border-color: green
+
+.header
+	.top-header
+		padding-top: 39.15px
+		padding-bottom: 38px
+		.top-header-title
+			margin-right: 36.11px
+		.top-header-phone
+			p
+				color: #37373F
+				font-style: normal
+				font-weight: normal
+				font-size: 14px
+				line-height: 17px
+			span
+				color: #B3B3B3
+	.top-header-bg
+		background: url("../img/helimain.png") no-repeat top center
+		height: 840px
+		.header-bg-title
+			p
+				padding-top: 286px
+				color: white
+				font-style: normal
+				font-weight: bold
+				font-size: 40px
+				line-height: 49px
+				width: 79%
+				span
+					color: orange
+		.header-bg-rectangle
+			background: #FC9B09
+			box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1)
+			border-radius: 5px
+			color: white
+			padding: 11px 29px 26px 23px
+			.header-bg-rectangle-text
+				p
+					font-style: normal
+					font-weight: normal
+					font-size: 20px
+					line-height: 30px
+					margin-bottom: 0rem
+			.header-bg-rectangle-price
+				p
+					font-style: normal
+					font-weight: 800
+					font-size: 35px
+					line-height: 30px
+					margin-bottom: 0rem
+			.header-bg-rectangle-group_6
+				padding: 5px 0px 0px 7px
+				p
+					font-style: normal
+					font-weight: 800
+					font-size: 35px
+					margin-bottom: 0rem
+					line-height: 30px
+					border: 1px solid white
+					border-radius: 50%
+					padding: 11px
+					box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25), 0px 4px 15px rgba(255, 255, 255, 0.25)
+			&:after
+				content: ""
+				position: relative
+				border: 10px solid
+				width: 0
+				height: 0
+		.arrow-btn
+			&:after
+				border-color: #fc9b09 transparent transparent transparent
+				top: 153%
+				left: 18%
+				margin-left: -10px
+		.header-bg-btn
+			margin-top: 20px
+			button
+				background-color: transparent
+				cursor: pointer
+				font-style: normal
+				font-weight: 900
+				font-size: 18px
+				line-height: 22px
+				text-align: center
+				color: white
+				border: 3px solid white
+				box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25), 0px 4px 70px rgba(255, 255, 255, 0.7)
+				border-radius: 3px
+				padding: 24px 37px
+
+.photosession
+	padding-top: 70px
+	.photosession-text
+		.text-title
+			width: 49%
+			h3
+				font-style: normal
+				font-weight: 500
+				font-size: 40px
+				line-height: 49px
+		.text-text
+			p
+				font-style: normal
+				font-weight: normal
+				font-size: 18px
+				line-height: 26px
+				margin-bottom: 0rem
+		.text-ul
+			ul
+				li
+					padding-top: 17px
+					font-style: normal
+					font-weight: 500
+					font-size: 14px
+					line-height: 20px
+	.photosession-review
+		hr
+			&:first-child
+				margin-bottom: 0px
+				margin-top: 39px
+			&:last-child
+				margin-top: 0px
+				margin-bottom: 0px
+		p
+			font-style: normal
+			font-weight: normal
+			font-size: 18px
+			line-height: 26px
+			margin-top: 32px
+			margin-bottom: 31px
+			margin-right: 10px
+			img
+				margin-right: 10px
+			span
+				font-weight: bold
+		.review-star
+			img
+				margin-right: 7px
+				&:last-child
+					margin-right: 0px
+	.photosession-video
+		img
+			width: 100%
+		.video-btn-play
+			position: absolute
+			bottom: 32px
+			right: 23px
+			button
+				background-color: transparent
+				border: none
+				cursor: pointer
+	.iframe-video
+		width: 100%
+		height: 73%
+	.hide
+		display: none
+	.show
+		display: block
+.photo-set
+	hr
+		margin-top: 51px
+	.col-md-12
+		padding: 0
+	.photo-set-title
+		h3
+			font-style: normal
+			font-weight: 500
+			font-size: 20px
+			line-height: 29px
+			margin-bottom: 37px
+		.photo
+			img
+				margin-right: 10px
+				margin-bottom: 10px
+				&:nth-child(4n+4)
+					margin-right: 0px
+			.photo-item
+				display: none
+	.btn-load-more
+		a
+			font-weight: 500
+			font-size: 17px
+			line-height: 25px
+			color: #5286EC
+.about-org
+	hr
+		margin-top: 51px
+		margin-bottom: 50px
+	.about-org-title
+		padding-top: 37px
+		h3
+			font-style: normal
+			font-weight: 500!important
+			font-size: 18px
+			line-height: 26px
+	.about-org-text
+		width: 90%
+		p
+			font-style: normal
+			font-weight: normal
+			font-size: 16px
+			line-height: 24px
+			&:nth-child(2)
+				margin-bottom: 5px
+		button
+			background-color: transparent
+			border: none
+			color: #5286EC
+			cursor: pointer
+			font-style: normal
+			font-weight: 500
+			font-size: 16px
+			line-height: 23px
+	.about-org-photographer
+		padding-top: 68px
+		text-align: center
+		.photographer-img
+			img
+				&:last-child
+					position: absolute
+					top: -17px
+					right: 82px
+		.photographer-name
+			h3
+				font-style: normal
+				font-weight: 500
+				font-size: 18px
+				line-height: 22px
+				padding-top: 23px
+			p
+				font-style: normal
+				font-weight: normal
+				font-size: 14px
+				line-height: 21px
+		.photographer-link
+			a
+				font-style: normal
+				font-weight: 500
+				font-size: 14px
+				line-height: 21px
+.select-time
+	.select-time-title
+		h3
+			font-style: normal
+			font-weight: 500
+			font-size: 20px
+			line-height: 29px
+	.time-items
+		margin-top: 30px
+		border: 1px solid #C7C7C7
+		.item-data-now
+			p
+				padding-top: 30px
+				padding-left: 30px
+				padding-bottom: 20px
+				font-style: normal
+				font-weight: normal
+				font-size: 18px
+				line-height: 26px
+				margin-bottom: 0rem
+				span
+					font-weight: bold
+			button
+				background-color: transparent
+				border: none
+				cursor: pointer
+		.time-item
+			padding-left: 30px
+			padding-top: 20px
+			font-style: normal
+			font-weight: normal
+			font-size: 18px
+			line-height: 26px
+			border-top: 1px solid #e5e5e5
+			p
+				margin-bottom: 10px
+			.item-price
+				p
+					font-weight: 600!important
+			.item-count
+				p
+					margin-bottom: 20px!important
+			.item-btn
+				button
+					background-color: transparent
+					border: 2px solid #FC9B09
+					border-radius: 3px
+					color: #FC9B09
+					padding: 16px 32px
+					font-weight: 500
+					font-size: 14px
+					line-height: 17px
+					cursor: pointer
+					margin-right: 30px
+					margin-top: 20px
+		.time-review
+			margin-top: 60px
+			margin-bottom: 48px
+			p
+				margin-left: 32px
+				margin-bottom: 0px
+				img
+					margin-right: 10px
+			.time-star
+				img
+					margin-right: 10px
+					&:last-child
+						margin-right: 0px
+.section-map
+	margin-top: 82px
+	iframe
+		width: 100%
+		height: 509px
+		border: none
+	.map-rectangle
+		position: absolute
+		width: 420px
+		background-color: white
+		border: 1px solid #C7C7C7
+		bottom: 15px
+		margin-top: 20px
+		padding-left: 30px
+		padding-top: 50px
+		padding-bottom: 11px
+		.count
+			p
+				top: -18px
+				font-weight: bold
+				font-size: 35px
+				line-height: 51px
+				text-align: center
+				color: white
+				background: #FC9B09
+				border-radius: 50%
+				padding: 5px 23px
+				margin-right: 18px
+		.li-title
+			p
+				font-weight: 500
+				font-size: 18px
+				line-height: 27px
+				margin-bottom: 12px!important
+		.li-text
+			p
+				font-weight: normal
+				font-size: 18px
+				line-height: 26px
+		.li-photo
+			img
+				width: 67px
+				height: 67px
+				top: -41px
+				margin-right: 18px
+.review-items
+	margin-top: 131px
+	.review-title
+		h3
+			font-style: normal
+			font-weight: 500
+			font-size: 20px
+			line-height: 29px
+			margin-bottom: 50px
+	.review-item
+		.item-photo
+			margin-right: 20px
+		.item-name
+			p
+				margin-bottom: 10px
+		.item-star
+			img
+				margin-right: 7px
+			p
+				margin-left: 50px
+				font-style: normal
+				font-weight: normal
+				font-size: 14px
+				line-height: 21px
+				color: #B3B3B3
+		.item-text
+			p
+				font-style: normal
+				font-weight: normal
+				font-size: 16px
+				line-height: 24px
+		.item-data
+			p
+				font-style: normal
+				font-weight: normal
+				font-size: 14px
+				line-height: 21px
+				color: #B3B3B3
+				margin-bottom: 35px
+		hr
+			margin-bottom: 30px
+		.show-all-reviews
+			font-weight: 500
+			font-size: 17px
+			line-height: 25px
+			color: #5286EC
+.footer
+	margin-top: 47px
+	margin-bottom: 14px
+	.footer-social
+		img
+			margin-right: 30px
+footer
+	background: #FAF9F8
+	.footer-pay
+		margin-top: 13px
+		margin-bottom: 39px
+		img
+			margin-right: 20px
+	.footer-text
+		p
+			font-style: normal
+			font-weight: normal
+			font-size: 14px
+			line-height: 17px
+			color: #B3B3B3
+
+// модальное окно
+.popup-fade
+	display: none
+	width: 100%
+	position: absolute
+	top: 1%
+	.popup
+		top: 6%
+		left: 45%
+		padding: 20px
+		width: 615px
+		margin-left: -200px
+		background: #fff
+		border-radius: 6px
+		z-index: 99999
+		opacity: 1
+	.popup-close
+		text-align: end
+	.popup-title
+		text-align: center
+		h3
+			font-style: normal
+			font-weight: 600
+			font-size: 22px
+			line-height: 33px
+	.popup-body
+		padding: 0px 79px 0px 76px
+		label
+			font-weight: 500
+			font-size: 16px
+			line-height: 20px
+			margin-top: 10px
+			span
+				color: red
+		input
+			border: 1px solid #C7C7C7
+			border-radius: 3px
+			width: 100%
+			padding: 13px
+			font-weight: normal
+			font-size: 16px
+			line-height: 20px
+			&::placeholder
+				font-size: 16px
+				line-height: 20px
+				color: #C7C7C7
+		button
+			text-align: center
+			width: 100%
+			background: #FC9B09
+			border-radius: 3px
+			padding-top: 27px
+			padding-bottom: 25px
+			border: none
+			color: white
+			margin-top: 23px
+			cursor: pointer
+	&:before
+		content: ''
+		background: #000
+		position: fixed
+		left: 0
+		top: 0
+		width: 100%
+		height: 100%
+		opacity: 0.7
+		z-index: 9999
+
+[type="date"]
+	background: url("../img/Group 5.5.svg") no-repeat 97%
+	&::-webkit-inner-spin-button
+		display: none
+	&::-webkit-calendar-picker-indicator
+		opacity: 0
+[type="checkbox"]
+	width: 37px!important
+[type="number"]
+	&::-webkit-inner-spin-button
+		display: none
+
+
+
+@import "media" // Always at the end

@@ -1,0 +1,145 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+
+// ≥1200px
++media-breakpoint-down(lg)
+  .photo
+    img
+      &:nth-child(4n+4)
+        margin-right: 10px!important
+  .popup-fade
+    .popup
+      left: 39%
+  .photosession
+    .photosession-text
+      .text-title
+        width: 65%
+
+// ≥992px
++media-breakpoint-down(md)
+  .photosession
+    .photosession-text
+      .text-title
+        width: 78%
+  .photosession
+    .iframe-video
+      height: 38%
+  .photo-set
+    .photo-set-title
+      .photo
+        img
+          margin-right: 77px
+
+// ≥768px
++media-breakpoint-down(sm)
+  .photosession
+    .photosession-text
+      .text-title
+        width: 78%
+  .photosession
+    .iframe-video
+      height: 38%
+  .photo-set
+    margin-top: 60px
+    .photo-set-title
+      text-align: center
+      h3
+        font-size: 28px
+      .photo
+        img
+          margin-right: 5px!important
+          width: auto!important
+  .about-org
+    .col-md-7
+      order: 13
+    .col-md-5
+      order: 1
+    .col-md-12
+      display: none
+// ≥576px
++media-breakpoint-down(xs)
+  .header-bg-title, .bg-btn, .header-bg-rectangle
+    margin-left: 10px
+  .text-title
+    width: 100%!important
+    text-align: center
+  .photosession-review
+    p
+      margin-bottom: 0px!important
+    .review-star
+      top: -11px
+      left: 46px
+    hr
+      &:last-child
+        margin-bottom: 23px!important
+  .photo-set
+    .photo-set-title
+      h3
+        text-align: center
+        margin-top: 15px
+  .photosession
+    .iframe-video
+      height: 100%
+  .select-time
+    margin-top: 40px
+    .select-time-title
+      h3
+        text-align: center
+  .section-map
+    .map-rectangle
+      position: relative
+      width: auto
+  .review-items
+    margin-top: 40px!important
+    .review-title
+      h3
+        text-align: center
+  .review-items
+    .review-item
+      .item-star
+        display: block!important
+  .popup-fade
+    .popup
+      left: 51%
+      width: 383px!important
+      .popup-body
+        padding: 0px!important
+  .select-time
+    .time-items
+      .time-item
+        .item-btn
+          margin-bottom: 30px
+          float: none!important
+      .time-review
+        border-top: 1px solid #c7c7c7
+        margin-bottom: 30px
+        padding-top: 31px
+        margin-top: 0px
+        .time-star
+          right: -76px
+          top: -10px
+  footer
+    .footer-pay
+      float: none!important
+  .photo-set
+    .photo-set-title
+      .photo
+        img
+          margin-right: 5px!important
+
+
+/*==========  Mobile First  ==========*/
+
+// ≤576px
++media-breakpoint-up(sm)
+
+// ≤768px
++media-breakpoint-up(md)
+
+// ≤992px
++media-breakpoint-up(lg)
+
+// ≤1200px
++media-breakpoint-up(xl)

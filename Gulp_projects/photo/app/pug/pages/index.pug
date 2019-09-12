@@ -1,0 +1,321 @@
+doctype html
+html
+    head
+        meta(charset = 'utf-8')
+        meta(name='viewport', content="initial-scale=1.0, width=device-width")
+        title Тестовое задание
+
+        link(rel='stylesheet', href='css/main.min.css')
+    body
+        header.header
+            .container
+               .row
+                   .col-md-12
+                       .top-header
+                           .top-header-title.float-left
+                               img(src='img/vector.png')
+                           .top-header-phone
+                               p #[span Телефон:]8(800)-123-12-12
+            .top-header-bg
+                .container
+                    .row
+                        .header-bg-title
+                            p Эксклюзивная #[span фотосессия] при полете на вертолете
+                        .header-bg-rectangle.arrow-btn
+                            .float-left
+                                .header-bg-rectangle-text
+                                    p Стоимость:
+                                .header-bg-rectangle-price
+                                    p 1500&#8381
+                            .header-bg-rectangle-group_6.float-right
+                                p %
+                    .row
+                        .header-bg-btn
+                            button(type='submit').bg-btn.popup-open Забронировать место
+        .photosession
+            .container
+                .row
+                    .col-md-6
+                        .photosession-text
+                            .text-title
+                                h3 Фотосессия в вертолете
+                            .text-text
+                                p Полет на вертолете это прекрасная возможность получить новые ощущения! А наш замечательный фотограф запечатлит лучшие моменты
+                            .text-ul
+                                ul.list-unstyled
+                                    li #[img(src='img/icon/icon_clock.svg')] 3 часа съемки
+                                    li #[img(src='img/icon/icon_photo.svg')] Более 50 фотографий
+                                    li #[img(src='img/icon/icon_map-marked.svg')] Москва
+                                    li #[img(src='img/icon/icon_speech-bubble.svg')] Готовы ответить на любые вопросы
+                        .photosession-review
+                            hr
+                            p.d-inline-block #[img(src='img/icon/icon_groupcup.svg')] Более #[span 50] отзывов с оценкой
+                            .review-star.d-inline-block
+                                - for (var x = 0; x < 5; x++)
+                                    img(src='img/icon/icon_star.svg')
+                            hr
+                    .col-md-6
+                        .photosession-video
+                            img(src='img/bg_video.png')
+                            .video-btn-play
+                                button#play-video(type='button'): img(src='img/icon/icon_play.svg')
+                        iframe(src='https://www.youtube.com/embed/l44IF9fBNOs').iframe-video.hide
+        .photo-set
+            .container
+                .row
+                    .col-md-12
+                        .photo-set-title
+                            h3 Фотографии пакета:
+                            .photo.single-item
+                                - for(var i = 1; i < 21; i++)
+                                    img(src='img/photo/photo_' + i +'.png').photo-item
+
+                        .btn-load-more.text-center
+                            a(href='#').load-more-photo Показать все фото
+                        hr
+        .about-org
+            .container
+                .row
+                    .col-md-7
+                        .about-org-title
+                            h3 Об организаторе:
+                        .about-org-text
+                            p Всем привет! Я фотограф Мария! И по мимо фотосъемки я так же являюсь членом группы экспертов туристической отрасли, которые хорошо разбираются в маркетинге, операциях и услугах обслуживания клиентов, специализирующихся на совместном использовании и частных турах.
+                            p Сначала мы (я и моя команда) изучаем интересы клиентов, а затем придумываем подходящее решение, которое соответствует бюджету и планам клиента. Мы никогда не зависим от субпоставщиков и не свяжемся…
+                            button(type='button').btn-read-about-org Читать еще &#709;
+                        .about-org-title
+                            h3 Что я предоставлю:
+                        .about-org-text
+                            p Встречу вас на машине после длительного перелёта.  Качественный подбор места и локации для вашей съемки.  При необходимости всегда возможно прерваться на обед/ужин. Более 50 фотографий на выходе с обработкой и замечательные впечатления о Дубае !
+                            button(type='button').btn-read-about-org Читать еще &#709;
+                    .col-md-5
+                        .about-org-photographer
+                            .photographer-img
+                                img(src='img/photographer-ellipse.png')
+                                img(src='img/icon/icon_heart.svg')
+                            .photographer-name
+                                h3 Марина Иванова
+                                p Фотограф
+                            .photographer-link
+                                a(href='#') Показать больше #[br] информации о фотографе
+                    .col-md-12
+                        hr
+        .select-time
+            .container
+                .row
+                    .col-md-8
+                        .select-time-title
+                            h3 Доступная съемка #[br] в ближайшее время:
+                        .time-items
+                            .item-data-now
+                                p Пятница, #[span 14] сентября #[button(type='button'): img(src='img/icon/icon_calendar.svg')]
+                            .time-item
+                                .d-inline-block
+                                    .item-clock
+                                        p 15:00 - 18:00
+                                    .item-price
+                                        p 1500₽
+                                    .item-count
+                                        p Осталось — 1 место
+                                .item-btn.float-right
+                                    button(type='button') Выбрать
+                            .time-item
+                                .d-inline-block
+                                    .item-clock
+                                        p 19:00 - 22:00
+                                    .item-price
+                                        p 1500₽
+                                    .item-count
+                                        p Осталось — 1 место
+                                .item-btn.float-right
+                                    button(type='button') Выбрать
+                            .time-review
+                                p.d-inline-block #[img(src='img/icon/icon_groupcup.svg')] Более #[span 50] отзывов с оценкой
+                                .time-star.d-inline-block
+                                    - for (var x = 0; x < 5; x++)
+                                        img(src='img/icon/icon_star.svg')
+        .section-map
+            iframe(src='https://yandex.ru/map-widget/v1/?um=constructor%3A1bcd1e768a35fde415e5468fe65a69483aca9aaf322f0b05dc0e15670956b2dc&amp;source=constructor')
+            .container
+                .row
+                    .col-md-12
+                        .map-rectangle
+                            ul.list-unstyled
+                                li
+                                    .d-inline-block
+                                        .count
+                                            p 1
+                                    .d-inline-block
+                                        .li-title
+                                            p Где встречаемся?
+                                        .li-text
+                                            p Москва
+                                li
+                                    .d-inline-block
+                                        .count
+                                            p 2
+                                    .d-inline-block
+                                        .li-title
+                                            p Время съемки
+                                        .li-text
+                                            p 3 часа
+                                li
+                                    .d-inline-block
+                                        .count
+                                            p 3
+                                    .d-inline-block
+                                        .li-title
+                                            p Мест осталось:
+                                        .li-text
+                                            p 2 места
+                                li
+                                    .d-inline-block
+                                        .li-photo
+                                            img(src='img/photographer-ellipse.png')
+                                    .d-inline-block
+                                        .li-title
+                                            p Мария Иванова
+                                        .li-text
+                                            p Фотограф
+                                            a(href='#') Показать больше информации
+        .review-items
+            .container
+                .row
+                    .col-md-7.col-sm-12
+                        .review-title
+                            h3 Отзывы:
+                        .review-item.d-flex
+                            .d-inline-block
+                                .item-photo
+                                    img(src='img/review/Valeria.png')
+                            .d-inline-block
+                                .item-name
+                                    p Валерия Антонова
+                                    p Арт-директор
+                                .item-star.d-flex
+                                    - for (var x = 0; x < 5; x++)
+                                        img(src='img/icon/icon_star.svg')
+                                    p #[img(src='img/Vector 2.3.png')] Супер! Я бы заказала съемку снова!
+                                .item-text
+                                    p Хотим выразить огромную благодарность вашей компании! Получили море ощущений, все прошло просто замечательно. Фотки получились великолепные, отдельное спасибо фотографу
+                                .item-data
+                                    p 27 Апреля, 2019г.
+                                hr
+                        .review-item.d-flex
+                            .d-inline-block
+                                .item-photo
+                                    img(src='img/review/Vitaliy.png')
+                            .d-inline-block
+                                .item-name
+                                    p Виталий Петров
+                                    p Фотограф
+                                .item-star.d-flex
+                                    - for (var x = 0; x < 5; x++)
+                                        img(src='img/icon/icon_star.svg')
+                                    p #[img(src='img/Vector 2.3.png')] Супер! Я бы заказал съемку снова!
+                                .item-text
+                                    p Восторг! :) Очень понравилось :) Захватили последний теплый, солнечный октябрьский день :) Впечатлило всё: сам вертолет, взлет, полёт, приземление. Организация полёта отличная. Спасибо!
+                                .item-data
+                                    p 19 Апреля, 2019г.
+                                hr
+                        .review-item.d-flex
+                            .d-inline-block
+                                .item-photo
+                                    img(src='img/review/Djim.png')
+                            .d-inline-block
+                                .item-name
+                                    p Джим Керри
+                                .item-star.d-flex
+                                    - for (var x = 0; x < 5; x++)
+                                        img(src='img/icon/icon_star.svg')
+                                    p #[img(src='img/Vector 2.3.png')] Супер! Я бы заказал съемку снова!
+                                .item-text
+                                    p Круто-круто-круто!!! Отмечали мой ДэРэ. Отлично провели время!!! Кстати закуски были вкусными и сытными))Мы с собой ничего не брали. Сами много фоткались,поэтому воспоминания обалденные!!!)) А еще нам всем напечатали по сертификату воздухоплавателя, правда некоторые ленятся за ним съездить))) Но все равно приятно. Короче, Презентстар – проверено. Оценка: пять!
+                                .item-data
+                                    p 11 Апреля, 2019г.
+                                hr
+                .row
+                    .col-md-12
+                        .show-all-reviews.text-center
+                            a(href='#') Показать Все
+        .footer
+            .container
+                .row
+                    .col-md-12
+                        .footer-logo.float-left
+                            img(src='img/vector.png')
+                        .footer-social.float-right.d-flex
+                            a(href='#') #[img(src='img/social/vk.svg')]
+                            a(href='#') #[img(src='img/social/Facebook.svg')]
+                            a(href='#') #[img(src='img/social/Instragram.svg')]
+        footer.d-flex
+            .container
+                .row
+                    .col-md-12
+                        .footer-pay.d-flex.float-left
+                            a(href='#') #[img(src='img/pay/MC.svg')]
+                            a(href='#') #[img(src='img/pay/VISA.svg')]
+                        .footer-text.text-center
+                            p Тех. поддержка: 8(800)700-00-00
+                            p 2018 HELYFLY. All Rights Reserved.
+
+        // модальное окно
+
+
+
+        .popup-fade
+            .popup
+                .popup-close
+                    a(href='#').popup-close Х
+                .popup-title
+                    h3 Бронирование
+                .popup-body
+                    form(action='#', method='post')
+                        label Дата#[span *]
+                        br
+                        input(type='date', id='date', required='required')
+                        br
+                        label Email#[span *]
+                        br
+                        input(type='text', id='email', required='required', placeholder='Электронная почта')
+                        br
+                        label Имя#[span *]
+                        br
+                        input(type='text', id='name', required='required')
+                        br
+                        label Фамилия#[span *]
+                        br
+                        input(type='text', id='surname', required='required')
+                        br
+                        label Телефон#[span *]
+                        br
+                        input(type='text', name='phone', id='phone', required='required', placeholder='+7 (905) 184-81-40')
+                        br
+                        label Данные карты#[span *]
+                        br
+                        input(type='text', name='card-number', id='card-number', required='required', placeholder='Номер карты')
+                        .d-flex
+                            input(type='text', name='card-number', id='mask-card-date', required='required', placeholder='Срок действия').w-50
+                            input(type='text', name='card-number', id='mask-card-code', required='required', placeholder='CVV').w-50
+                        label(for="cb").d-flex
+                            input#cb(type="checkbox", required='required')
+                            | Я согласен с пользовательским соглашением и публичной офертой
+                        button(type='submit', disabled='disabled')#btn-ok Забронировать
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        script(src='js/scripts.min.js')
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js')
